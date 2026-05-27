@@ -17,7 +17,6 @@ Real-time global seismic activity dashboard powered by USGS data. Track earthqua
     - Magnitude Distribution histogram
     - Depth vs Magnitude scatter
     - Hourly Activity trend line
-- **Tsunami Warning Badge** - Auto flags tsunami events
 - **Auto Refresh 60s** - Always up-to-date
 - **CSV Export** - Download live data
 
@@ -25,17 +24,17 @@ Real-time global seismic activity dashboard powered by USGS data. Track earthqua
 
 ## 📸 Screenshots
 
-### Dashboard & KPIs
-assets01_dashboard.png
+### 1. Dashboard & Live KPIs
+![Dashboard](assets/assets01_dashboard.png)
 
-### Global Earthquake Map
-assets02_map.png
+### 2. Global Earthquake Map
+![Map](assets/assets02_map.png)
 
-### Analytics & Top 10
-assets03_analytics.png
+### 3. Analytics - Top 10, Magnitude & Depth
+![Analytics](assets/assets03_analytics.png)
 
-### India Alerts & Export
-assets04_alerts_export.png
+### 4. Hourly Activity & India Region Alerts
+![Alerts](assets/assets04_alerts_export.png)
 
 ---
 
