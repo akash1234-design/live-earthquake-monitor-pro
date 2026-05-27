@@ -1,0 +1,57 @@
+# 🌍 Live Earthquake Monitor Pro
+
+Real-time global seismic activity dashboard powered by USGS data. Track earthquakes worldwide with interactive maps, live KPIs, and India-specific alerts.
+
+**Live Demo:** *Add your Streamlit link here after deploy*
+
+---
+
+## ✨ Features
+
+- **Live USGS Feed** - Past Hour / Day / 7 Days / 30 Days
+- **Interactive Global Map** - Magnitude sized bubbles with depth color scale
+- **Smart Filters** - Min Magnitude, Max Depth, Time Range
+- **India Region Highlight** - Auto-detects quakes near India, Pakistan, Myanmar
+- **Analytics Suite:**
+    - Top 10 Strongest quakes table
+    - Magnitude Distribution histogram
+    - Depth vs Magnitude scatter
+    - Hourly Activity trend line
+- **Tsunami Warning Badge** - Auto flags tsunami events
+- **Auto Refresh 60s** - Always up-to-date
+- **CSV Export** - Download live data
+
+---
+
+## 📸 Screenshots
+
+### Dashboard & KPIs
+![Dashboard](assets/01_dashboard.png)
+
+### Global Earthquake Map
+![Map](assets/02_map.png)
+
+### Analytics & Top 10
+![Analytics](assets/03_analytics.png)
+
+### India Alerts & Export
+![Alerts](assets/04_alerts_export.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Streamlit
+- **Data:** USGS Earthquake API
+- **Viz:** Plotly Express + Mapbox
+- **Processing:** Pandas, Pytz
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/akash1234-design/live-earthquake-monitor-pro.git
+cd live-earthquake-monitor-pro
+pip install -r requirements.txt
+streamlit run app_earthquake.py
