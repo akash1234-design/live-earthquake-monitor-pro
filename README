@@ -9,14 +9,10 @@ Real-time global seismic activity dashboard powered by USGS data. Track earthqua
 ## ✨ Features
 
 - **Live USGS Feed** - Past Hour / Day / 7 Days / 30 Days
-- **Interactive Global Map** - Magnitude sized bubbles with depth color scale
+- **Interactive Global Map** - Magnitude sized bubbles with color scale
 - **Smart Filters** - Min Magnitude, Max Depth, Time Range
-- **India Region Highlight** - Auto-detects quakes near India, Pakistan, Myanmar
-- **Analytics Suite:**
-    - Top 10 Strongest quakes table
-    - Magnitude Distribution histogram
-    - Depth vs Magnitude scatter
-    - Hourly Activity trend line
+- **India Region Highlight** - Auto-detects quakes near India
+- **Analytics Suite:** Top 10, Magnitude Distribution, Depth vs Magnitude, Hourly Activity
 - **Auto Refresh 60s** - Always up-to-date
 - **CSV Export** - Download live data
 
@@ -30,20 +26,18 @@ Real-time global seismic activity dashboard powered by USGS data. Track earthqua
 ### 2. Global Earthquake Map
 ![Map](assets/assets02_map.png)
 
-### 3. Analytics - Top 10, Magnitude & Depth
+### 3. Analytics - Top 10 & Charts
 ![Analytics](assets/assets03_analytics.png)
 
-### 4. Hourly Activity & India Region Alerts
+### 4. Hourly Activity & India Alerts
 ![Alerts](assets/assets04_alerts_export.png)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** Streamlit
-- **Data:** USGS Earthquake API
-- **Viz:** Plotly Express + Mapbox
-- **Processing:** Pandas, Pytz
+- Streamlit, Pandas, Plotly, Requests, Pytz
+- Data Source: USGS Earthquake Hazards Program
 
 ---
 
