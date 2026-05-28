@@ -2,7 +2,7 @@
 
 Real-time global seismic activity dashboard powered by USGS data. Track earthquakes worldwide with interactive maps, live KPIs, and India-specific alerts.
 
-**Live Demo:** *Add your Streamlit link here after deploy*
+**Live Demo:** *https://live-earthquake-monitor-pro-nqtjib8ryqjaylujaxk8xj.streamlit.app/*
 
 ---
 
